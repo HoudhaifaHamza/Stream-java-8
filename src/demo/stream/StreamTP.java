@@ -53,7 +53,7 @@ public class StreamTP {
             .collect(Collectors.toSet());
 
 
-    static List<String> usernames = usersList.stream()
+    static List<String> listAgesUsers = usersList.stream()
             .map(x -> x.getFirstname())
             .collect(Collectors.toList());
 
